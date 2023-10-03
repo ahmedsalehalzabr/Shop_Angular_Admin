@@ -30,9 +30,14 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles.scss",
+              "C:/Users/Ahmed Alzabr/my_scondeApp/node_modules/bootstrap/scss/bootstrap.scss"
             ],
-            "scripts": []
+           
+            "scripts": [
+              "node_modules/jquery/dist/jquery.min.js",
+              "node_modules/bootstrap/dist/js/bootstrap.min.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -100,5 +105,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "5ef89f87-ca63-46ee-b277-31aa898ea20a"
   }
 }
